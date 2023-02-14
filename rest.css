@@ -1,0 +1,86 @@
+header a {
+    text-decoration: none;
+    margin-right: 400px;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    border-radius: 6px;
+    justify-content: space-around;
+}
+
+body {
+    background-color: palegreen;
+    background-image: url('https://media.istockphoto.com/id/516329534/photo/last-straw.jpg?s=612x612&w=0&k=20&c=q9tScD01SPtN5QNAYgWG-ot4n_4hZXOgMStuFgmBFa8=');
+    /* background-image: url('https://www.localsamosa.com/wp-content/uploads/2019/04/pizza-restaurants.png'); */
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#zero {
+    width: 100%;
+
+    padding: 10px;
+    height: 25%;
+    text-align: center;
+    background-size: cover;
+    border-radius: 10px 5px 25px;
+    background-attachment: fixed;
+    display: flex;
+
+
+}
+
+#one {
+
+    width: 21%;
+    height: 300px;
+    background-color: yellowgreen;
+    border: 1px solid;
+    padding-bottom: 2px;
+    float:left;
+    margin: 10px;
+    border-radius: 5px;
+    background-size: cover;
+    outline-color: white;
+    text-align: center;
+    box-shadow: 10px 5px 26px hwb(0 0% 100%);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+img {
+    width: 90%;
+    padding: 10px;
+    height: 45%;
+    text-align: center;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
